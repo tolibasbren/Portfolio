@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>SKILLS</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">IMG</a>
+    <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+    <nav>
+      <a href="Index.html" class="active"> Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="exp.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+  <section id="education" class="education">
+    <div class="particles"></div>
+    <h2 class="section-title">Skills</h2>
+
+    <div class="edu-box">
+      <!-- Added logo image tag -->
+      <img src="assets/logo/skill_logo/hardware_logo.png" alt=" Logo" class="edu-logo">
+      <div class="edu-content">
+        <h3>Hardware Maintenance</h3>
+        <span class="edu-place"></span>
+        <span class="edu-year"></span>
+        <p>
+          Proficient in computer hardware maintenance with hands-on experience in assembling systems, upgrading
+          components, diagnosing hardware failures, and performing routine preventive maintenance. Knowledgeable in BIOS
+          configuration, hardware compatibility, and system performance optimization.
+        </p>
+      </div>
+    </div>
+
+    <div class="edu-box">
+      <!-- Added logo image tag -->
+      <img src="assets/logo/skill_logo/webdev_logo.png" alt=" Logo" class="edu-logo">
+      <div class="edu-content">
+        <h3>Web Developer</h3>
+        <span class="edu-place"></span>
+        <span class="edu-year"></span>
+        <p>
+          Web developer with practical experience in computer hardware maintenance, including troubleshooting, component
+          replacement, and system optimization. This skill supports stable development workflows and reliable testing
+          environments.
+        </p>
+      </div>
+    </div>
+
+    <div class="edu-box">
+      <!-- Added logo image tag -->
+      <img src="assets/logo/skill_logo/cook_logo.png" alt="Logo" class="edu-logo">
+      <div class="edu-content">
+        <h3>Cooking</h3>
+        <span class="edu-place"></span>
+        <span class="edu-year"></span>
+        <p>
+          Possess basic to intermediate cooking skills, demonstrating strong time management, organization, and the
+          ability to follow structured processes—skills that translate well into development work.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('nav');
+
+  menuBtn.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+</html>

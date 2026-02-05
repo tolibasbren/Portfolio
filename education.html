@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>EDUCATION</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">IMG</a>
+    <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+    <nav>
+      <a href="Index.html" class="active"> Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="exp.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+  <section id="education" class="education">
+    <div class="particles"></div>
+    <h2 class="section-title">Education</h2>
+
+    <div class="edu-box">
+      <!-- Added logo image tag -->
+      <img src="assets/logo/elem_logo.png" alt="Elementary School Logo" class="edu-logo">
+      <div class="edu-content">
+        <h3>Elementary</h3>
+        <span class="edu-place">Palo Leyte</span>
+        <span class="edu-year">2006-2012</span>
+        <p>
+          focuses on building strong academic foundations while nurturing curiosity, creativity,
+          and character in young learners. It prepares future educators with the knowledge, skills, and strategies
+          needed to teach core subjects such as reading, writing, mathematics, science, and social studies in engaging
+          and age-appropriate ways.
+        </p>
+      </div>
+    </div>
+
+    <div class="edu-box">
+      <!-- Added logo image tag -->
+      <img src="assets/logo/lnhs_logo.png" alt="High School Logo" class="edu-logo">
+      <div class="edu-content">
+        <h3>High School</h3>
+        <span class="edu-place">Tacloban City</span>
+        <span class="edu-year">2012-2018</span>
+        <p>
+          focuses on developing students’ academic competence, critical thinking, and personal responsibility as they
+          prepare for higher education, careers, and adulthood. It equips educators with subject-specific expertise and
+          effective teaching strategies to engage adolescent learners across diverse academic and social backgrounds.
+        </p>
+      </div>
+    </div>
+
+    <div class="edu-box">
+      <!-- Added logo image tag -->
+      <img src="assets/logo/evsu_logo.png" alt="College Logo" class="edu-logo">
+      <div class="edu-content">
+        <h3>College</h3>
+        <span class="edu-place">Tacloban City</span>
+        <span class="edu-year">2018-2024</span>
+        <p>
+          centers on advanced learning, professional preparation, and intellectual growth. It focuses on developing
+          specialized knowledge, critical analysis, research skills, and independent thinking needed for academic
+          excellence and career readiness in various fields.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('nav');
+
+  menuBtn.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
+</html>
